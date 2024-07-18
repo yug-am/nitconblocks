@@ -17,6 +17,7 @@ import AboutUs from './pages/AboutUs';
 import { lightTheme, darkTheme } from './themes';
 
 function App() {
+  
   const [darkMode, setDarkMode] = useState(false);
 
   const handleThemeToggle = () => {
@@ -26,7 +27,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <CssBaseline />
-      <Router>
+      <Router initialEntries={['/stage1']}>
         <Box sx={{ display: 'flex' }}>
           <Sidebar />
           <Box
@@ -40,6 +41,7 @@ function App() {
               {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
             </IconButton>
             <Routes>
+            <Route path="/" element={<Stage1 />} />
               <Route path="/stage1" element={<Stage1 />} />
               <Route path="/stage2" element={<Stage2 />} />
               <Route path="/stage3" element={<Stage3 />} />
