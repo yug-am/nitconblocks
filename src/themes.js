@@ -1,6 +1,6 @@
 // src/themes.js
 import { createTheme } from '@mui/material/styles';
-
+import { colors } from './Colors';
 export const lightTheme = createTheme({
   palette: {
     mode: 'light',
@@ -11,16 +11,16 @@ export const darkTheme = createTheme({
   palette: {
     mode: 'dark',
     link: {
-      main: '#4caf50', // Green color
+      main:  colors.green, // Green color
     },
   },
   components: {
     MuiCssBaseline: {
       styleOverrides: {
         a: {
-          color: '#4caf50', // Green color
+          color: colors.green, // Green color
           '&:hover': {
-            color: '#81c784', // Lighter green for hover state
+            color: colors.lightGreen, // Lighter green for hover state
           },
         },
       },

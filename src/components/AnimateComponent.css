@@ -1,0 +1,25 @@
+.hammer-container {
+    position: relative;
+    width: 200px; 
+    height: 150px; 
+  }
+  
+  .hammer-svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hammer-swing {
+    animation: swing 2s infinite alternate; /* Adjust animation duration and style */
+    transform-origin: 100% 0; /* Adjust to control the swing direction */
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(45deg); /* Adjust the angle of swing */
+    }
+  }
+  

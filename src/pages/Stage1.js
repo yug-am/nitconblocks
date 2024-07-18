@@ -3,7 +3,7 @@ import React from 'react';
 import img_one_txn from '../images/stage_1/img_one_txn.png';
 import img_two_txn from '../images/stage_1/img_two_txn.png';
 import img_three_txn from '../images/stage_1/img_three_txn.png';
-
+import BottomPageLink from '../components/BottomPageLink.js';
 const Stage1 = () => {
   return <div><h1>Stage 1</h1>
 <br/>
@@ -259,8 +259,13 @@ f43c8dc371d5680eaa5fd97be71534e48a9efba24ee9b901c02320b9a19a15d6<br/>
         </li>
       </ul>
       <br/>
+      <div style={{ display: 'flex' }}>
+      <BottomPageLink to="/stage2" text="Next Section" />
+      </div>
       <br/>
-      
+      <br/>
+      <br/>
+      <br/>
   </div>;
 };
 
