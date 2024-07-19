@@ -1,0 +1,14 @@
+page-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .page-navigation-link {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  

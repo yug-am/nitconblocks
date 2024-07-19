@@ -10,8 +10,8 @@
   }
   
   .hammer-swing {
-    animation: swing 2s infinite alternate; /* Adjust animation duration and style */
-    transform-origin: 100% 0; /* Adjust to control the swing direction */
+    animation: swing 1.5s infinite alternate;
+    transform-origin: 100% 0; 
   }
   
   @keyframes swing {
@@ -19,7 +19,7 @@
       transform: rotate(0deg);
     }
     100% {
-      transform: rotate(45deg); /* Adjust the angle of swing */
+      transform: rotate(35deg); 
     }
   }
   
