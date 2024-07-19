@@ -78,9 +78,6 @@ for each block:
 
 <h4>Example</h4>
 <h5>Input</h5>
-Here is the formatted text with `<br/>` tags after each new line:
-
-
 4<br/>
 C 100<br/>
 S 90<br/>
