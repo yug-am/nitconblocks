@@ -1,5 +1,5 @@
 import React from 'react';
-import './AnimateComponent.css'; // Import your CSS for styling
+import './AnimateComponent.css'; 
 import hammerSvg from '../images/svg/hammer-svgrepo-com_no_color.svg'
 import blcSvg from '../images/svg/blockchain-icon.svg'
 const AnimateComponent = () => {

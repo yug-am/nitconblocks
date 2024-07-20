@@ -1,10 +1,10 @@
-// src/pages/Stage1.js
 import React from 'react';
 import img_one_txn from '../images/stage_1/img_one_txn.png';
 import img_two_txn from '../images/stage_1/img_two_txn.png';
 import img_three_txn from '../images/stage_1/img_three_txn.png';
 import BottomPageLink from '../components/BottomPageLink.js';
 const Stage1 = () => {
+
   return <div><h1>Stage 1</h1>
 <br/>
 Blockchain may be defined as a distributed ledger<a href="#reflist">[1]</a>. It is a distributed database
