@@ -12,6 +12,7 @@ import Stage2 from './pages/Stage2';
 import Stage3 from './pages/Stage3';
 import Stage4 from './pages/Stage4';
 import Stage5 from './pages/Stage5';
+import Stage6 from './pages/Stage6';
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
 import { lightTheme, darkTheme } from './themes';
@@ -47,6 +48,7 @@ function App() {
               <Route path="/stage3" element={<Stage3 />} />
               <Route path="/stage4" element={<Stage4 />} />
               <Route path="/stage5" element={<Stage5 />} />
+              <Route path="/stage6" element={<Stage6 />} />
               <Route path="/about-us" element={<AboutUs />} />
             </Routes>
           </Box>
