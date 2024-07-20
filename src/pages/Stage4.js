@@ -13,7 +13,7 @@ CH = #(block_hash+to_string(nonce)).<br/>
 <h3>
   Changes
 </h3>
-Find minimum nonce>=0, such that CH has zero as the last hexadecimal digit.<br/>
+Find minimum nonce {">"}=0, such that CH has zero as the last hexadecimal digit.<br/>
 Example:<br/>
 block_hash(bh) = 6fe0597694198be1a8e1942a95733b130df3ee22fbe96d67120d13b363d7c7af<br/>
 nonce = 4<br/>
