@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { List, ListItem, ListItemText, Drawer } from '@mui/material';
+import { List, ListItem, ListItemText, Drawer, Box } from '@mui/material';
+import logoSVG from '../images/logo_block_nitc.svg';
 
 const Sidebar = () => {
   return (
@@ -17,6 +18,10 @@ const Sidebar = () => {
         },
       }}
     >
+      <Box sx={{ p: 1, textAlign: 'center' }}>
+        <img src={logoSVG} alt="Logo" style={{ maxWidth: '50%', height: 'auto' }} />
+        <h3>NITC on blocks</h3>
+      </Box>
       <List sx={{ '& a': { color: 'inherit', textDecoration: 'none' } }}>
         <ListItem button component={Link} to="/stage1">
           <ListItemText primary="Stage 1" />
@@ -45,4 +50,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
-  
