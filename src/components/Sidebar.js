@@ -23,6 +23,9 @@ const Sidebar = () => {
         <h3>NITC on blocks</h3>
       </Box>
       <List sx={{ '& a': { color: 'inherit', textDecoration: 'none' } }}>
+      <ListItem button component={Link} to="/introduction">
+          <ListItemText primary="Introduction" />
+        </ListItem>
         <ListItem button component={Link} to="/stage1">
           <ListItemText primary="Stage 1" />
         </ListItem>

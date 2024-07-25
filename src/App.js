@@ -13,6 +13,7 @@ import Stage5 from './pages/Stage5';
 import Stage6 from './pages/Stage6';
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
+import Introduction from './pages/Introduction';
 import { lightTheme, darkTheme } from './themes';
 
 
@@ -33,7 +34,7 @@ function ScrollToTop() {
       sx={{ flexGrow: 1, p: 3, height: '100vh', overflowY: 'scroll' }}
     >
       <Routes>
-        <Route path="/" element={<Stage1 />} />
+        <Route path="/" element={<Introduction/>} />
         <Route path="/stage1" element={<Stage1 />} />
         <Route path="/stage2" element={<Stage2 />} />
         <Route path="/stage3" element={<Stage3 />} />
@@ -41,6 +42,7 @@ function ScrollToTop() {
         <Route path="/stage5" element={<Stage5 />} />
         <Route path="/stage6" element={<Stage6 />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/introduction" element={<Introduction />} />
       </Routes>
     </Box>
   );

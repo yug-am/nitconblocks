@@ -29,7 +29,11 @@ const AboutUs = () => {
         >
           Yugam Parashar
         </a>.</p>
+        <br/>
+    <br/>
+    <br/>
     </div>
+    
   );
 };
 
