@@ -18,7 +18,7 @@ The blockchain is Proof of Work based with simulated miner block sealing and blo
 <br/>
      </p>
      <div style={{ display: 'flex' }}>
-      <BottomPageLink to="/introduction" text="About Us" />
+      <BottomPageLink to="/about-us" text="About Us" />
       </div>
       <br/>
       <br/>
