@@ -1,5 +1,6 @@
 import React from 'react';
 import nitc_blc from '../images/introduction/logo_nitc_blc.jpg'
+import BottomPageLink from '../components/BottomPageLink';
 const Introduction = () => {
   return (
     <div>
@@ -16,9 +17,13 @@ The blockchain is Proof of Work based with simulated miner block sealing and blo
 <br/>
 <br/>
      </p>
-        <br/>
-    <br/>
-    <br/>
+     <div style={{ display: 'flex' }}>
+      <BottomPageLink to="/introduction" text="About Us" />
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
     
   );

@@ -1,14 +1,21 @@
 # NITC On Blocks
 
+## Introduction
+NITC on blocks is a custom blockchain implementation project aimed at understanding blockchains.
+The project is planned in six stages and is programming language independent.
+The end result is a custom blockchain with native cryptocurrency with miners and simulated block sealing by miners 
+with transactions stored in Merkle Tree.
+
+The blockchain is Proof of Work based with simulated miner block sealing and block reward system.
 ## About Us
 
-Authors: The content in the website and the documentation has been authored in the Department of Computer Science and Engineering, National Institute of Technology Calicut under the guidance of Dr. Vinod Pathari. The project's activity started in the year 2023.
+Authors: The content in the website and the documentation has been authored in the Department of Computer Science and Engineering, National Institute of Technology Calicut under the guidance of [Dr. Vinod Pathari](https://sites.google.com/nitc.ac.in/pathari/). The project's activity started in the year 2023.
 
 First version of this assignment was released as a part assignment for Foundations of Information Security for M23 batch in 2023.
 
 First web version was released in 2024.
 
-First course assignment and web versions were prepared by Yugam Parashar.
+First course assignment and web versions were prepared by [Yugam Parashar](https://www.linkedin.com/in/yugam-parashar/).
 
 
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yug-am/) 
@@ -27,9 +34,16 @@ Runs the app in the development mode.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+NITC on blocks is a custom blockchain implementation project aimed at understanding blockchains.
+The project is planned in six stages and is programming language independent.
+The end result is a custom blockchain with native cryptocurrency with miners and simulated block sealing by miners 
+with transactions stored in Merkle Tree.<br/>
+The blockchain is Proof of Work based with simulated miner block sealing and block reward system.
 
-![](./README_images/logo_nitc_blc.jpg)
-![](./README_images/site_main_logo.jpg)
+<img src="./README_images/logo_nitc_blc.jpg" width="200" height="200" />
+
+<img src="./README_images/site_main_logo.jpg" width="200" height="200" />
+
 
 ### `npm run build`
 

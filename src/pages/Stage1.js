@@ -2,6 +2,7 @@ import React from 'react';
 import img_one_txn from '../images/stage_1/img_one_txn.png';
 import img_two_txn from '../images/stage_1/img_two_txn.png';
 import img_three_txn from '../images/stage_1/img_three_txn.png';
+import blc_diag from '../images/stage_1/blockchain_diagram_detailed.jpg';
 import BottomPageLink from '../components/BottomPageLink.js';
 const Stage1 = () => {
 
@@ -14,6 +15,8 @@ organized into a block structure and the data in the block along with the hash o
 These block chain up like a linked list and due to use of the hash of the previous block 
 (which already had the hash of the previous block), as we move ahead in the change it becomes
  difficult to change the past blocks because all blocks ahead will change. <br/>
+ <img src={blc_diag} width="500px" alt = "Blockchain diagram"></img> 
+
 <h3>
   Setup
 </h3>
