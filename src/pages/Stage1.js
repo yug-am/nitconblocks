@@ -250,15 +250,15 @@ f43c8dc371d5680eaa5fd97be71534e48a9efba24ee9b901c02320b9a19a15d6<br/>
  <h2 id = "reflist">References:</h2>
       <ul>
         <li>Forbes: What Is Blockchain?&nbsp; 
-          <a href="https://www.forbes.com/what-is-blockchain" target="_blank" rel="noopener noreferrer">link</a>
+          <a href="https://www.forbes.com/sites/digital-assets/article/what-is-a-blockchain/" target="_blank" rel="noopener noreferrer">link</a>
         </li>
         <li>
         Investopedia: Blockchain Facts&nbsp; 
-          <a href="https://www.investopedia.com/blockchain-facts" target="_blank" rel="noopener noreferrer">link</a>
+          <a href="https://www.investopedia.com/terms/b/blockchain.asp" target="_blank" rel="noopener noreferrer">link</a>
         </li>
         <li>
-        SHA3-256 - Online Tools&nbsp;
-          <a href="https://www.tools4noobs.com/sha256" target="_blank" rel="noopener noreferrer">link</a>
+        SHA3-256 - Browser Ling&nbsp;
+          <a href="https://www.browserling.com/tools/sha3-hash" target="_blank" rel="noopener noreferrer">link</a>
         </li>
       </ul>
       <br/>
